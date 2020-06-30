@@ -1,13 +1,13 @@
 {
-  "name": "eth-phishing-detect",
-  "version": "1.1.13",
-  "description": "Utility for detecting phishing domains targeting Ethereum users",
+  "name": "cfx-phishing-detect",
+  "version": "0.0.1",
+  "description": "Forked from eth-phishing-detect Utility for detecting phishing domains targeting Ethereum and Conflux users",
   "main": "src/index.js",
   "scripts": {
     "test": "node test | tap-summary",
     "ci": "node test | tap-summary --no-progress"
   },
-  "author": "kumavis",
+  "author": "yqrashawn",
   "license": "DBAD",
   "dependencies": {
     "fast-levenshtein": "^2.0.6"
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MetaMask/eth-phishing-detect.git"
+    "url": "git+https://github.com/yqrashawn/cfx-phishing-detect.git"
   },
   "bugs": {
-    "url": "https://github.com/MetaMask/eth-phishing-detect/issues"
+    "url": "https://github.com/yqrashawn/cfx-phishing-detect/issues"
   },
-  "homepage": "https://github.com/MetaMask/eth-phishing-detect#readme"
+  "homepage": "https://github.com/yqrashawn/cfx-phishing-detect#readme"
 }
